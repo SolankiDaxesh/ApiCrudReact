@@ -14,12 +14,9 @@ export default function Create() {
     // console.log(price);
     // console.log(rating);
     // console.log(description);
-    axios.post(baseurl + 'products/add', {
-      title,
-      price,
-      rating,
-      description,
-    });
+    fetch('https://dummyjson.com/products/category/smartphones')
+      .then((res) => res.json())
+      .then(console.log);
   };
 
   return (
