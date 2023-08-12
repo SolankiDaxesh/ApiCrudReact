@@ -1,1 +1,1 @@
-var baseUrl = 'https://dummyjson.com/';
+var baseUrl = 'http://dummyjson.com/';
