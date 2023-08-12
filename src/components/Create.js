@@ -7,7 +7,7 @@ export default function Create() {
   const [price, setPrice] = useState('');
   const [rating, setRating] = useState('');
   const [description, setDescription] = useState('');
-
+  <script crossorigin src="Access-Control-Allow-Origin: *"></script>;
   const postData = () => {
     // var regex = '^[0-9]';
     // console.log(title);
