@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
-
-export default function App() {
+import React from 'react';
+import './style.css';
+import Create from './components/Create';
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="main">
+      <h2 className="main-header">React Crud Operations</h2>
+      <div>
+        <Create />
+      </div>
     </div>
   );
 }
+
+export default App;
